@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2222C596B8EB3E58DBD6AE79 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C72C84251FE78C856C0E964 /* libPods.a */; };
+		387A655A1A85243C004997B6 /* NSString+utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 387A65591A85243C004997B6 /* NSString+utils.m */; };
+		387A655B1A85243C004997B6 /* NSString+utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 387A65591A85243C004997B6 /* NSString+utils.m */; };
+		D7592BB01A8437120027C302 /* TendigiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7592BAF1A8437120027C302 /* TendigiTests.m */; };
+		D7592BC91A843A6D0027C302 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7592BBB1A843A6D0027C302 /* AppDelegate.m */; };
+		D7592BCA1A843A6D0027C302 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7592BBB1A843A6D0027C302 /* AppDelegate.m */; };
+		D7592BD11A843A6D0027C302 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7592BC41A843A6D0027C302 /* Images.xcassets */; };
+		D7592BD21A843A6D0027C302 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7592BC41A843A6D0027C302 /* Images.xcassets */; };
+		D7592BD51A843A6D0027C302 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7592BC71A843A6D0027C302 /* main.m */; };
+		D7592BD61A843A6D0027C302 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7592BC71A843A6D0027C302 /* main.m */; };
+		D7592BD91A843DDD0027C302 /* Feeds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7592BD81A843DDD0027C302 /* Feeds.storyboard */; };
+		D7592BDA1A843DDD0027C302 /* Feeds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7592BD81A843DDD0027C302 /* Feeds.storyboard */; };
+		D7592BE11A843F130027C302 /* LALTwitterFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = D7592BE01A843F130027C302 /* LALTwitterFeed.m */; };
+		D7592BE21A843F130027C302 /* LALTwitterFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = D7592BE01A843F130027C302 /* LALTwitterFeed.m */; };
+		D7592BE51A843F760027C302 /* LALTwitterUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D7592BE41A843F760027C302 /* LALTwitterUser.m */; };
+		D7592BE61A843F760027C302 /* LALTwitterUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D7592BE41A843F760027C302 /* LALTwitterUser.m */; };
+		D7592BEA1A8442BF0027C302 /* LALFeedCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7592BE91A8442BF0027C302 /* LALFeedCollectionViewCell.m */; };
+		D7592BEB1A8442BF0027C302 /* LALFeedCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7592BE91A8442BF0027C302 /* LALFeedCollectionViewCell.m */; };
+		D7592BEE1A8445050027C302 /* LALFeedsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7592BED1A8445050027C302 /* LALFeedsViewController.m */; };
+		D7592BEF1A8445050027C302 /* LALFeedsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7592BED1A8445050027C302 /* LALFeedsViewController.m */; };
+		D7592BF41A8449C80027C302 /* LALTwitterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D7592BF31A8449C80027C302 /* LALTwitterManager.m */; };
+		D7592BF51A8449C80027C302 /* LALTwitterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D7592BF31A8449C80027C302 /* LALTwitterManager.m */; };
+		D7592BF81A8449D80027C302 /* LALDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D7592BF71A8449D80027C302 /* LALDataManager.m */; };
+		D7592BF91A8449D80027C302 /* LALDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D7592BF71A8449D80027C302 /* LALDataManager.m */; };
+		D7592BFB1A844E160027C302 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7592BFA1A844E160027C302 /* Social.framework */; };
+		D7592BFD1A844E1C0027C302 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7592BFC1A844E1C0027C302 /* Accounts.framework */; };
+		D7592BFE1A844E290027C302 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7592BFA1A844E160027C302 /* Social.framework */; };
+		D7592BFF1A844E2E0027C302 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7592BFC1A844E1C0027C302 /* Accounts.framework */; };
+		D77B80621A86E90E00FDF82E /* NSDate+utils.m in Sources */ = {isa = PBXBuildFile; fileRef = D77B80611A86E90E00FDF82E /* NSDate+utils.m */; };
+		D77B80631A86E90E00FDF82E /* NSDate+utils.m in Sources */ = {isa = PBXBuildFile; fileRef = D77B80611A86E90E00FDF82E /* NSDate+utils.m */; };
+		E274B49763773EA19764B645 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C72C84251FE78C856C0E964 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7592BAA1A8437120027C302 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7592B881A8437120027C302 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7592B8F1A8437120027C302;
+			remoteInfo = Tendigi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		387A65581A85243C004997B6 /* NSString+utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+utils.h"; sourceTree = "<group>"; };
+		387A65591A85243C004997B6 /* NSString+utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+utils.m"; sourceTree = "<group>"; };
+		8C72C84251FE78C856C0E964 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F8FD51DC100CCFF4786B90 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D7592B901A8437120027C302 /* Tendigi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tendigi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7592BA91A8437120027C302 /* TendigiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TendigiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7592BAE1A8437120027C302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7592BAF1A8437120027C302 /* TendigiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TendigiTests.m; sourceTree = "<group>"; };
+		D7592BBA1A843A6D0027C302 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7592BBB1A843A6D0027C302 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7592BC41A843A6D0027C302 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D7592BC61A843A6D0027C302 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7592BC71A843A6D0027C302 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7592BD81A843DDD0027C302 /* Feeds.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Feeds.storyboard; sourceTree = "<group>"; };
+		D7592BDF1A843F130027C302 /* LALTwitterFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LALTwitterFeed.h; sourceTree = "<group>"; };
+		D7592BE01A843F130027C302 /* LALTwitterFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LALTwitterFeed.m; sourceTree = "<group>"; };
+		D7592BE31A843F760027C302 /* LALTwitterUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LALTwitterUser.h; sourceTree = "<group>"; };
+		D7592BE41A843F760027C302 /* LALTwitterUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LALTwitterUser.m; sourceTree = "<group>"; };
+		D7592BE81A8442BF0027C302 /* LALFeedCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LALFeedCollectionViewCell.h; sourceTree = "<group>"; };
+		D7592BE91A8442BF0027C302 /* LALFeedCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LALFeedCollectionViewCell.m; sourceTree = "<group>"; };
+		D7592BEC1A8445050027C302 /* LALFeedsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LALFeedsViewController.h; sourceTree = "<group>"; };
+		D7592BED1A8445050027C302 /* LALFeedsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LALFeedsViewController.m; sourceTree = "<group>"; };
+		D7592BF21A8449C80027C302 /* LALTwitterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LALTwitterManager.h; sourceTree = "<group>"; };
+		D7592BF31A8449C80027C302 /* LALTwitterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LALTwitterManager.m; sourceTree = "<group>"; };
+		D7592BF61A8449D80027C302 /* LALDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LALDataManager.h; sourceTree = "<group>"; };
+		D7592BF71A8449D80027C302 /* LALDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LALDataManager.m; sourceTree = "<group>"; };
+		D7592BFA1A844E160027C302 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		D7592BFC1A844E1C0027C302 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		D77B804E1A8503A200FDF82E /* Models.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Models.h; sourceTree = "<group>"; };
+		D77B80601A86E90E00FDF82E /* NSDate+utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+utils.h"; sourceTree = "<group>"; };
+		D77B80611A86E90E00FDF82E /* NSDate+utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+utils.m"; sourceTree = "<group>"; };
+		F0DBF8FE5738E181BB0B29A2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7592B8D1A8437120027C302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7592BFD1A844E1C0027C302 /* Accounts.framework in Frameworks */,
+				D7592BFB1A844E160027C302 /* Social.framework in Frameworks */,
+				E274B49763773EA19764B645 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7592BA61A8437120027C302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7592BFF1A844E2E0027C302 /* Accounts.framework in Frameworks */,
+				D7592BFE1A844E290027C302 /* Social.framework in Frameworks */,
+				2222C596B8EB3E58DBD6AE79 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		387A65571A85243C004997B6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				387A65581A85243C004997B6 /* NSString+utils.h */,
+				387A65591A85243C004997B6 /* NSString+utils.m */,
+				D77B80601A86E90E00FDF82E /* NSDate+utils.h */,
+				D77B80611A86E90E00FDF82E /* NSDate+utils.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		D7592B871A8437120027C302 = {
+			isa = PBXGroup;
+			children = (
+				D7592B921A8437120027C302 /* Tendigi */,
+				D7592BAC1A8437120027C302 /* TendigiTests */,
+				D7592B911A8437120027C302 /* Products */,
+				D8CD41E6CEEBEC4B34A540A3 /* Pods */,
+				DA19C7687B87A7D087BF23DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7592B911A8437120027C302 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7592B901A8437120027C302 /* Tendigi.app */,
+				D7592BA91A8437120027C302 /* TendigiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7592B921A8437120027C302 /* Tendigi */ = {
+			isa = PBXGroup;
+			children = (
+				D7592BB91A843A6D0027C302 /* AppDelegate */,
+				D7592BBC1A843A6D0027C302 /* Models */,
+				D7592BBD1A843A6D0027C302 /* Modules */,
+				D7592BC11A843A6D0027C302 /* Ressources */,
+				D7592BC51A843A6D0027C302 /* Supporting Files */,
+				D7592BC81A843A6D0027C302 /* Utils */,
+			);
+			path = Tendigi;
+			sourceTree = "<group>";
+		};
+		D7592BAC1A8437120027C302 /* TendigiTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7592BAF1A8437120027C302 /* TendigiTests.m */,
+				D7592BAD1A8437120027C302 /* Supporting Files */,
+			);
+			path = TendigiTests;
+			sourceTree = "<group>";
+		};
+		D7592BAD1A8437120027C302 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7592BAE1A8437120027C302 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7592BB91A843A6D0027C302 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D7592BBA1A843A6D0027C302 /* AppDelegate.h */,
+				D7592BBB1A843A6D0027C302 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D7592BBC1A843A6D0027C302 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D7592BDF1A843F130027C302 /* LALTwitterFeed.h */,
+				D7592BE01A843F130027C302 /* LALTwitterFeed.m */,
+				D7592BE31A843F760027C302 /* LALTwitterUser.h */,
+				D7592BE41A843F760027C302 /* LALTwitterUser.m */,
+				D77B804E1A8503A200FDF82E /* Models.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D7592BBD1A843A6D0027C302 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D7592BD71A843DDD0027C302 /* Feeds */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D7592BC11A843A6D0027C302 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				D7592BC41A843A6D0027C302 /* Images.xcassets */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		D7592BC51A843A6D0027C302 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7592BC61A843A6D0027C302 /* Info.plist */,
+				D7592BC71A843A6D0027C302 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7592BC81A843A6D0027C302 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				387A65571A85243C004997B6 /* Categories */,
+				D7592BF01A84493E0027C302 /* DataManager */,
+				D7592BF11A84493E0027C302 /* TwitterManager */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D7592BD71A843DDD0027C302 /* Feeds */ = {
+			isa = PBXGroup;
+			children = (
+				D7592BE71A8442A10027C302 /* Cells */,
+				D7592BD81A843DDD0027C302 /* Feeds.storyboard */,
+				D7592BEC1A8445050027C302 /* LALFeedsViewController.h */,
+				D7592BED1A8445050027C302 /* LALFeedsViewController.m */,
+			);
+			path = Feeds;
+			sourceTree = "<group>";
+		};
+		D7592BE71A8442A10027C302 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D7592BE81A8442BF0027C302 /* LALFeedCollectionViewCell.h */,
+				D7592BE91A8442BF0027C302 /* LALFeedCollectionViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D7592BF01A84493E0027C302 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				D7592BF61A8449D80027C302 /* LALDataManager.h */,
+				D7592BF71A8449D80027C302 /* LALDataManager.m */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		D7592BF11A84493E0027C302 /* TwitterManager */ = {
+			isa = PBXGroup;
+			children = (
+				D7592BF21A8449C80027C302 /* LALTwitterManager.h */,
+				D7592BF31A8449C80027C302 /* LALTwitterManager.m */,
+			);
+			path = TwitterManager;
+			sourceTree = "<group>";
+		};
+		D8CD41E6CEEBEC4B34A540A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0DBF8FE5738E181BB0B29A2 /* Pods.debug.xcconfig */,
+				98F8FD51DC100CCFF4786B90 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA19C7687B87A7D087BF23DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7592BFC1A844E1C0027C302 /* Accounts.framework */,
+				D7592BFA1A844E160027C302 /* Social.framework */,
+				8C72C84251FE78C856C0E964 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7592B8F1A8437120027C302 /* Tendigi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7592BB31A8437120027C302 /* Build configuration list for PBXNativeTarget "Tendigi" */;
+			buildPhases = (
+				E1573EA332B3BE6916FA5950 /* Check Pods Manifest.lock */,
+				D7592B8C1A8437120027C302 /* Sources */,
+				D7592B8D1A8437120027C302 /* Frameworks */,
+				D7592B8E1A8437120027C302 /* Resources */,
+				75B060C3BAC55B437326BBBF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tendigi;
+			productName = Tendigi;
+			productReference = D7592B901A8437120027C302 /* Tendigi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7592BA81A8437120027C302 /* TendigiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7592BB61A8437120027C302 /* Build configuration list for PBXNativeTarget "TendigiTests" */;
+			buildPhases = (
+				B96FFCF42CBE48FC3DE48D62 /* Check Pods Manifest.lock */,
+				D7592BA51A8437120027C302 /* Sources */,
+				D7592BA61A8437120027C302 /* Frameworks */,
+				D7592BA71A8437120027C302 /* Resources */,
+				886B78E482F16E50309AD90D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7592BAB1A8437120027C302 /* PBXTargetDependency */,
+			);
+			name = TendigiTests;
+			productName = TendigiTests;
+			productReference = D7592BA91A8437120027C302 /* TendigiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7592B881A8437120027C302 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LAL;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Lionel;
+				TargetAttributes = {
+					D7592B8F1A8437120027C302 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D7592BA81A8437120027C302 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D7592B8F1A8437120027C302;
+					};
+				};
+			};
+			buildConfigurationList = D7592B8B1A8437120027C302 /* Build configuration list for PBXProject "Tendigi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7592B871A8437120027C302;
+			productRefGroup = D7592B911A8437120027C302 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7592B8F1A8437120027C302 /* Tendigi */,
+				D7592BA81A8437120027C302 /* TendigiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7592B8E1A8437120027C302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7592BD11A843A6D0027C302 /* Images.xcassets in Resources */,
+				D7592BD91A843DDD0027C302 /* Feeds.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7592BA71A8437120027C302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7592BD21A843A6D0027C302 /* Images.xcassets in Resources */,
+				D7592BDA1A843DDD0027C302 /* Feeds.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75B060C3BAC55B437326BBBF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		886B78E482F16E50309AD90D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B96FFCF42CBE48FC3DE48D62 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1573EA332B3BE6916FA5950 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7592B8C1A8437120027C302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77B80621A86E90E00FDF82E /* NSDate+utils.m in Sources */,
+				D7592BF41A8449C80027C302 /* LALTwitterManager.m in Sources */,
+				D7592BF81A8449D80027C302 /* LALDataManager.m in Sources */,
+				D7592BEA1A8442BF0027C302 /* LALFeedCollectionViewCell.m in Sources */,
+				D7592BE51A843F760027C302 /* LALTwitterUser.m in Sources */,
+				387A655A1A85243C004997B6 /* NSString+utils.m in Sources */,
+				D7592BEE1A8445050027C302 /* LALFeedsViewController.m in Sources */,
+				D7592BD51A843A6D0027C302 /* main.m in Sources */,
+				D7592BE11A843F130027C302 /* LALTwitterFeed.m in Sources */,
+				D7592BC91A843A6D0027C302 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7592BA51A8437120027C302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7592BCA1A843A6D0027C302 /* AppDelegate.m in Sources */,
+				D7592BE61A843F760027C302 /* LALTwitterUser.m in Sources */,
+				D7592BEF1A8445050027C302 /* LALFeedsViewController.m in Sources */,
+				D7592BD61A843A6D0027C302 /* main.m in Sources */,
+				D7592BEB1A8442BF0027C302 /* LALFeedCollectionViewCell.m in Sources */,
+				D77B80631A86E90E00FDF82E /* NSDate+utils.m in Sources */,
+				D7592BF51A8449C80027C302 /* LALTwitterManager.m in Sources */,
+				D7592BF91A8449D80027C302 /* LALDataManager.m in Sources */,
+				387A655B1A85243C004997B6 /* NSString+utils.m in Sources */,
+				D7592BE21A843F130027C302 /* LALTwitterFeed.m in Sources */,
+				D7592BB01A8437120027C302 /* TendigiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7592BAB1A8437120027C302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7592B8F1A8437120027C302 /* Tendigi */;
+			targetProxy = D7592BAA1A8437120027C302 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D7592BB11A8437120027C302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D7592BB21A8437120027C302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7592BB41A8437120027C302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0DBF8FE5738E181BB0B29A2 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Tendigi/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7592BB51A8437120027C302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98F8FD51DC100CCFF4786B90 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				INFOPLIST_FILE = "Tendigi/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7592BB71A8437120027C302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0DBF8FE5738E181BB0B29A2 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TendigiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tendigi.app/Tendigi";
+			};
+			name = Debug;
+		};
+		D7592BB81A8437120027C302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98F8FD51DC100CCFF4786B90 /* Pods.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TendigiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tendigi.app/Tendigi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7592B8B1A8437120027C302 /* Build configuration list for PBXProject "Tendigi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7592BB11A8437120027C302 /* Debug */,
+				D7592BB21A8437120027C302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7592BB31A8437120027C302 /* Build configuration list for PBXNativeTarget "Tendigi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7592BB41A8437120027C302 /* Debug */,
+				D7592BB51A8437120027C302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7592BB61A8437120027C302 /* Build configuration list for PBXNativeTarget "TendigiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7592BB71A8437120027C302 /* Debug */,
+				D7592BB81A8437120027C302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7592B881A8437120027C302 /* Project object */;
+}
